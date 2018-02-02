@@ -1,7 +1,6 @@
 
 <html>
   <body>
-    
-    <h1> This is the first line </h1>
+        <h1> SIGNUP </h1>
    </body>    
 </html>
