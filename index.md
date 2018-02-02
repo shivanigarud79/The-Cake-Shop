@@ -1,13 +1,25 @@
+<form onsubmit="signup"style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label><b>Email:: </b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
 
-<html>
-  <title>
-   <h1>The Cake Shop</h1> 
-   </title>
-  <body>
-        <h3>The Cake Shop is a premium cake & pastry shop in Mumbai. Ms. Bunty Mahajan, the Le Cordon Bleu trained chef has built the brand on two basic principles - quality and the customer.
+    <br><label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-The Cake Shop aims to serve the most creative and mouth-watering cakes, to help make your celebration even more special!
+    <br><label><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-The Cake Shop specializes in customized wedding cakes, anniversary cakes, engagement cakes, kids birthday cakes, designer cakes, baby shower cakes, theme cakes, photo cakes & cupcakes, celebration cakes, bachelorette party cakes, cakes for gifting and more.</h3>
-   </body>    
-</html>
+    <label>
+      <input type="checkbox" checked="checked" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button><br>
+     <br><button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
